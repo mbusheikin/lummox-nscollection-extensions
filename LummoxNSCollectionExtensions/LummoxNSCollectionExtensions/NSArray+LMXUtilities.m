@@ -116,7 +116,7 @@
 - (NSArray *)lmx_reversedArray {
     NSMutableArray *mutableReverse = [NSMutableArray arrayWithCapacity:[self count]];
     
-    for (int i = [self count] - 1; i >= 0; i--) {
+    for (NSUInteger i = [self count] - 1; i >= 0; i--) {
         [mutableReverse addObject:self[i]];
     }
     
